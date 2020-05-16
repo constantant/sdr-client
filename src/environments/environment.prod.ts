@@ -1,3 +1,7 @@
 export const environment = {
-  production: true
+  production: true,
+  socketIo: {
+    url: 'http://localhost:4200',
+    options: {}
+  }
 };
